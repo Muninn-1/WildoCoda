@@ -1,0 +1,69 @@
+.col-12 {
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	display:flex;
+	justify-content: space-between;
+}
+
+.col-lg-3 {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	height: 28rem;
+	width: 16rem;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.card-body {
+	height: 30rem;
+}
+
+.btn-article {
+	margin-bottom: 1rem;
+	margin-left: 4rem;
+}
+
+.card-title {
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+
+h6 {
+	text-align: right;
+}
+
+hr {
+	margin-top: 5px;
+}
+
+.modal-content {
+	width: auto;
+}
+
+.close {
+	position: relative;
+	left: 45rem;
+	top: -1rem;
+	width: 0rem;
+	height: 0rem;
+	color: darkred;
+}
+
+
+.modal-dialog {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+}
