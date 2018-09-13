@@ -21,15 +21,6 @@
 	margin-bottom: 10px;
 }
 
-.card-body {
-	height: 30rem;
-}
-
-.btn-article {
-	margin-bottom: 1rem;
-	margin-left: 4rem;
-}
-
 .card-title {
 	margin-bottom: 0px;
 }
@@ -66,4 +57,13 @@ hr {
 	display: flex;
 	justify-content: center;
 	max-width: 800px;
+}
+
+.modal-img {
+	height: 12rem;
+}
+
+.col-10 {
+	display: flex;
+	flex-direction: row-reverse;
 }
