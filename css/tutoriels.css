@@ -8,20 +8,20 @@ h1
    text-align: center;
     
       font-size: 50px;
-  color: whitesmoke;
-text-shadow:3px 1px 0px rgba(8,142,231);
+  color: black;
+
 }
 
 .section1
 {
-background-color: whitesmoke;
+background-color:black;
   
 }
 
 p
 {
     font-size: 24px;
-    color: whitesmoke;
+    color: black;
 }
 
 .card
@@ -43,14 +43,14 @@ p
 
 .card p{
     font-size: 16px;
-    color: whitesmoke;
+    color: black;
     
 }
 
 .dark
 {
     
-background-color: rgb(129, 117, 117);
+background-color: ;
 
 }
 .tutovideo
