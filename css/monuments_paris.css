@@ -12,19 +12,13 @@ h1
 {
 	display:flex;
 	justify-content:center;
-	margin-top:15px;
+	margin-top:45px;
 	text-align:center;
 }
 
-h5
-{
-	margin-top:10px;
-}
 
-img {
-	cursor: zoom-in;
 
-}
+
 
 .img-fluid {
   max-width: 100%;
@@ -44,9 +38,31 @@ img {
 	padding:10px 20px;
 }
 
-.mapIcon
+
+.btn
 {
-	display:flex;
-	justify-content:end;
+	border:none;
+
 }
 
+.mapicon
+{
+	display:flex;
+	flex-direction:row-reverse;
+}
+
+.fa-thumbs-up
+{
+	color:blue;
+	margin:0px 12px;
+}
+
+.fa-map-marked-alt
+{
+	color:darkgray;
+}
+
+.fa-map-marked-alt:hover
+{
+	color:gray;
+}
