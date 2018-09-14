@@ -1,7 +1,6 @@
-
 /*CSS Cards*/
-.col-12 {
 
+.col-12 {
 	display: flex;
 	justify-content: center;
 }
@@ -33,9 +32,9 @@ h2 {
 	text-align: center;
 }
 
+
 h6 {
 	text-align: right;
-	font-style: italic;
 }
 
 hr {
@@ -66,9 +65,8 @@ hr {
 	height: 12rem;
 }
 
-
-.modal-img:hover {
-	cursor: pointer;
+.modal-img {
+  cursor: pointer;
 }
 
 .col-10 {
