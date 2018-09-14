@@ -12,19 +12,13 @@ h1
 {
 	display:flex;
 	justify-content:center;
-	margin-top:15px;
+	margin-top:45px;
 	text-align:center;
 }
 
-h5
-{
-	margin-top:10px;
-}
 
-img {
-	cursor: zoom-in;
 
-}
+
 
 .img-fluid {
   max-width: 100%;
@@ -44,9 +38,17 @@ img {
 	padding:10px 20px;
 }
 
-.mapIcon
+
+.btn
 {
-	display:flex;
-	justify-content:end;
+	border:none;
+
+}
+
+.modal-dialog
+{
+	
+	margin-top:50px;
+
 }
 
