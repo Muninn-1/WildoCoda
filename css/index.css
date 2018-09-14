@@ -1,3 +1,5 @@
+/*CSS Cards*/
+
 .col-12 {
 	display: flex;
 	justify-content: center;
@@ -63,7 +65,70 @@ hr {
 	height: 12rem;
 }
 
+.modal-img {
+  cursor: pointer;
+}
+
 .col-10 {
 	display: flex;
 	flex-direction: row-reverse;
+}
+
+.card-text {
+	text-align: justify;
+}	
+
+
+
+.fa-map-marked-alt {
+	color: darkgray;
+}
+
+.fa-map-marked-alt:hover {
+	color: gray;
+}
+
+.fa-map-marked-alt:active {
+	color: #535353;
+}
+
+.btn-primary {
+	background-color: white;
+	border-color: darkgray;
+	color: darkgray;
+}
+
+.btn-primary:active {
+	background-color: gray !important;
+	border-color: gray !important;
+	color: white !important;
+}
+.btn-primary:hover {
+	background-color: white;
+	border-color: gray;
+	color: gray;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 0 .2rem rgba(169,169,169,.5) !important;
+}
+
+/*Fin CSS Cards*/
+
+
+/*Carousel---------------------------------*/
+
+.carousel img {
+	height: 600px;
+}
+
+
+.carousel-caption {
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	background-color: rgba(211,211,211,0.8);
+	color: #212121;
 }
