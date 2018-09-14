@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|EB+Garamond');
 
 p{
     font-size:20px;
@@ -7,6 +8,7 @@ p{
 .embed-responsive 
 {
     margin-top: 24px;
+    box-shadow: 6px 6px 10px #aaa;
 }
 
 
@@ -25,12 +27,10 @@ h3
     margin-top: 50px;
 }
 
-.card 
+.card
 {
     border: none;
 }
-
-
 
 .border-rigth-gray
 {
@@ -44,6 +44,9 @@ h3
 {
     width: 550px;
     margin-left:250px;
+    box-shadow: 6px 6px 10px #aaa;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 
@@ -52,8 +55,105 @@ h3
     width: 100px;
     margin-left:50px;
     
+    
 }
 article
 {
    margin-right: 110px;
+}
+
+.img-fluid
+{
+    box-shadow: 6px 6px 10px #aaa;
+}
+
+
+
+    p{
+        font-size:20px;
+    }
+    
+    .embed-responsive 
+    {
+        margin-top: 24px;
+        box-shadow: 6px 6px 10px #aaa;
+    }
+    
+    
+    h2
+    {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    
+    }
+    
+    h3
+    {
+        display: flex;
+        justify-content:center;
+        margin-top: 50px;
+    }
+    
+    .card
+    {
+        border: none;
+    }
+    
+    .border-rigth-gray
+    {
+        border-left: 2px solid gray;
+        
+        
+    }
+    
+    
+    .img-end
+    {
+        width: 550px;
+        margin-left:250px;
+        box-shadow: 6px 6px 10px #aaa;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    
+    .card-img-top
+    {
+        width: 100px;
+        margin-left:50px;
+        
+        
+    }
+    article
+    {
+       margin-right: 110px;
+    }
+    
+    .img-fluid
+    {
+        box-shadow: 6px 6px 10px #aaa;
+      
+    }
+
+
+h1
+{
+    font-family: 'Amatic SC', cursive;
+    font-size:100px;
+}
+h2 
+{
+    font-family: 'EB Garamond', cursive;
+    
+}
+h3
+{
+    font-family: 'EB Garamond', cursive;
+   
+}
+
+p
+{
+  font-family: 'Cormorant Garamond', cursive;
 }
