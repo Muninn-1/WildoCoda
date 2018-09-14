@@ -1,65 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers|Rochester|Lobster|Gaegu|Jua|serif');
 
 
+p{
+    font-size:20px;
+}
 
-h1
+.embed-responsive 
 {
-    font-family: Rochester, serif;
-   text-align: center;
+    margin-top: 24px;
+}
+
+
+h2
+{
+display: flex;
+justify-content:center;
+margin-top: 20px;
+
+}
+
+h3
+{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.card 
+{
+    border: none;
+}
+
+
+
+.border-rigth-gray
+{
+    border-left: 2px solid gray;
     
-      font-size: 50px;
-  color: black;
-
-}
-
-.section1
-{
-background-color:black;
-  
-}
-
-p
-{
-    font-size: 24px;
-    color: black;
-}
-
-.card
-{
-    background-color: rgb(129, 117, 117);
-    
-    border-radius: 20px;
-
-
-
-}
-
-.img-fluid
-{
-    border: solid 7px  beige;
-    border-radius: 20px;
-
-}
-
-.card p{
-    font-size: 16px;
-    color: black;
     
 }
 
-.dark
-{
-    
-background-color: ;
 
-}
-.tutovideo
+.img-end
 {
-    justify-items: flex-end;
+    width: 550px;
+    margin-left:250px;
 }
 
 
+.card-img-top
+{
+    width: 100px;
+    margin-left:50px;
     
-
-
-
+}
+article
+{
+   margin-right: 110px;
+}
