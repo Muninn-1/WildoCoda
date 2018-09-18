@@ -45,10 +45,25 @@ h1
 
 }
 
-.modal-dialog
+.mapicon
 {
-	
-	margin-top:50px;
+	display:flex;
+	flex-direction:row-reverse;
+}
 
+.fa-thumbs-up
+{
+	color:blue;
+	margin:0px 12px;
+}
+
+.fa-map-marked-alt
+{
+	color:darkgray;
+}
+
+.fa-map-marked-alt:hover
+{
+	color:gray;
 }
 

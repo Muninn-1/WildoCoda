@@ -21,26 +21,27 @@
   </head>
 
   <body>
-    <header>
+    <header class="text-center">
       <div class="container">
-        <h1 class="logo mt-5">Wildo Coda</h1>
+        <h1 class="logo mt-5 d-none d-lg-block">Wildo Coda</h1>
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+          <a class="navbar-brand d-lg-none d-xl-none" href="index.html">Wildo Coda</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav mt-4 mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Mes monuments<span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="monuments_paris.html">Les monuments</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Les monuments</a>
+                <a class="nav-link" href="monuments_wildo.html">Mes monuments</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tutoriels</a>
+                <a class="nav-link" href="tutoriels.html">Tutoriels</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -57,8 +58,8 @@
         <!-- Card 1 -->
 
           <div class="media media1">
-            <div class="row">
-              <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal-lg" src="img/monuments_paris/sacrecoeurNB.jpg" onmouseover="this.src='img/monuments_paris/sacrecoeur.jpg'" onmouseout="this.src='img/monuments_paris/sacrecoeurNB.jpg'" />
+            <div id="sacrecoeur-ancre" class="row">
+              <img  class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal-lg" src="img/monuments_paris/sacrecoeurNB.jpg" onmouseover="this.src='img/monuments_paris/sacrecoeur.jpg'" onmouseout="this.src='img/monuments_paris/sacrecoeurNB.jpg'" />
 
               <!-- Modal -->
               <div class="modal fade expampleModal-lg" id="exampleModal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -72,16 +73,20 @@
 
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="mapicon">
+                  <a target="blank" href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8868879,2.3427004,17.5z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
+                </div>
               </div>
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="mapIcon">
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div>
                   <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -93,17 +98,18 @@
           <!-- Card 2 -->
 
           <div class="media media2">
-            <div class="row">           
+            <div id="sacre-coeur-ancre" class="row">           
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <a target="blank" href="https://www.google.com/maps/place/Concorde/@48.866472,2.3214736,16.71z/data=!4m5!3m4!1s0x47e66e2d7aabd6a7:0xe6c385542ed1aff1!8m2!3d48.8665404!4d2.3225252"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
               </div>
-              <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal2-lg" src="img/monuments_paris/sacre-coeurNB.jpg" onmouseover="this.src='img/monuments_paris/sacre-coeur.jpg'" onmouseout="this.src='img/monuments_paris/sacre-coeurNB.jpg'" />
+              <img  class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal2-lg" src="img/monuments_paris/sacre-coeurNB.jpg" onmouseover="this.src='img/monuments_paris/sacre-coeur.jpg'" onmouseout="this.src='img/monuments_paris/sacre-coeurNB.jpg'" />
 
               <!-- Modal -->
-              <div class="modal fade expampleModal-lg" id="exampleModal2-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade expampleModal-lg" id="exampleModal4-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                   <div class="modal-content">
                       <img src="img/monuments_paris/sacre-coeur.jpg">                                    
@@ -113,20 +119,22 @@
 
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
+        
           <hr>
 
 
           <!-- Card 3 -->
 
           <div class="media media1">
-            <div class="row">
-              <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal3-lg" src="img/monuments_paris/alex3NB.jpg" onmouseover="this.src='img/monuments_paris/alex3.jpg'" onmouseout="this.src='img/monuments_paris/alex3NB.jpg'" />
+            <div id="alex3-ancre" class="row">
+              <img  class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal3-lg" src="img/monuments_paris/alex3NB.jpg" onmouseover="this.src='img/monuments_paris/alex3.jpg'" onmouseout="this.src='img/monuments_paris/alex3NB.jpg'" />
 
               <!-- Modal -->
               <div class="modal fade expampleModal-lg" id="exampleModal3-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -139,16 +147,20 @@
 
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.com/maps/place/Pont+Alexandre+III/@48.8673098,2.3150384,15.25z/data=!4m5!3m4!1s0x47e66fd057a1f0b9:0xeb0032bf06974d4f!8m2!3d48.8638995!4d2.313559"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="mapicon">
+                  <a target="blank" href="https://www.google.com/maps/place/Pont+Alexandre+III/@48.8673098,2.3150384,15.25z/data=!4m5!3m4!1s0x47e66fd057a1f0b9:0xeb0032bf06974d4f!8m2!3d48.8638995!4d2.313559"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
+                </div>
               </div>
               <div class="d-lg-none">
-                  <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <h5 class="mt-0">Top-aligned media</h5>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
-                </div>
+                <i class="far fa-thumbs-up fa-2x"></i>
+              </div>
             </div>
           </div>
           <hr>
@@ -157,14 +169,15 @@
           <!-- card 4 -->
 
           <div class="media media2">
-            <div class="row">           
+            <div id="concorde-ancre" class="row">           
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a target="blank" href="https://www.google.com/maps/place/Concorde/@48.866472,2.3214736,16.71z/data=!4m5!3m4!1s0x47e66e2d7aabd6a7:0xe6c385542ed1aff1!8m2!3d48.8665404!4d2.3225252"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
               </div>
-              <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal4-lg" src="img/monuments_paris/concordeNB.jpg" onmouseover="this.src='img/monuments_paris/concorde.jpg'" onmouseout="this.src='img/monuments_paris/concordeNB.jpg'" />
+              <img  class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal4-lg" src="img/monuments_paris/concordeNB.jpg" onmouseover="this.src='img/monuments_paris/concorde.jpg'" onmouseout="this.src='img/monuments_paris/concordeNB.jpg'" />
 
               <!-- Modal -->
               <div class="modal fade expampleModal-lg" id="exampleModal4-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,10 +190,11 @@
 
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
-                </div>
+                <i class="far fa-thumbs-up fa-2x"></i>
+              </div>
             </div>
           </div>
           <hr>
@@ -203,15 +217,19 @@
 
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.com/maps/place/Pyramide+du+Louvre/@48.860865,2.3348694,17.5z/data=!4m5!3m4!1s0x47e66e267a32d441:0xb0088e1f7c07f451!8m2!3d48.8610135!4d2.3358583"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="mapicon">
+                  <a target="blank" href="https://www.google.com/maps/place/Pyramide+du+Louvre/@48.860865,2.3348694,17.5z/data=!4m5!3m4!1s0x47e66e267a32d441:0xb0088e1f7c07f451!8m2!3d48.8610135!4d2.3358583"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
+                </div>
               </div>
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -224,9 +242,10 @@
             <div class="row">           
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <a target="blank" href="https://www.google.com/maps/place/Les+Invalides/@48.8568344,2.3108108,16.29z/data=!4m13!1m7!3m6!1s0x47e66fd5a1f61e57:0x3c0518fc678bf8b7!2sInvalides,+75007+Paris!3b1!8m2!3d48.8593608!4d2.3138127!3m4!1s0x47e66fd7b98f3053:0x455a14459c80c16a!8m2!3d48.8570917!4d2.3128112"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
               </div>
               <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal6-lg" src="img/monuments_paris/chapelNB.jpg" onmouseover="this.src='img/monuments_paris/chapel.jpg'" onmouseout="this.src='img/monuments_paris/chapelNB.jpg'" />
 
@@ -241,9 +260,10 @@
 
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -267,15 +287,19 @@
 
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.com/maps/place/Pont+Alexandre+III/@48.863903,2.311365,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fd057a1f0b9:0xeb0032bf06974d4f!8m2!3d48.8638995!4d2.313559"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="mapicon">
+                  <a target="blank" href="https://www.google.com/maps/place/Pont+Alexandre+III/@48.863903,2.311365,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fd057a1f0b9:0xeb0032bf06974d4f!8m2!3d48.8638995!4d2.313559"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
+                </div>
               </div>
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -288,9 +312,10 @@
             <div class="row">           
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a target="blank" href="https://www.google.com/maps/place/L'%C3%A9glise+de+la+Madeleine,+75008+Paris/@48.8700869,2.3222404,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e33162583e7:0x3be9b86d003dc1bd!8m2!3d48.8700834!4d2.3244344"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
               </div>
               <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal8-lg" src="img/monuments_paris/madeleineNB.jpg" onmouseover="this.src='img/monuments_paris/madeleine.jpg'" onmouseout="this.src='img/monuments_paris/madeleineNB.jpg'" />
 
@@ -305,9 +330,10 @@
 
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -331,15 +357,19 @@
 
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.com/maps/place/Luxembourg/@48.8560658,2.3379672,15.63z/data=!4m5!3m4!1s0x47e671dce64db815:0x3acab3cf2d0235ea!8m2!3d48.8476586!4d2.3404399"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="mapicon">
+                  <a target="blank" href="https://www.google.com/maps/place/Luxembourg/@48.8471937,2.3396925,16.25z/data=!4m5!3m4!1s0x47e671dce64db815:0x3acab3cf2d0235ea!8m2!3d48.8476586!4d2.3404399"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                  <i class="far fa-thumbs-up fa-2x"></i>
+                </div>
               </div>
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -352,9 +382,10 @@
             <div class="row">           
               <div class="media-body d-none d-lg-block col-md-4">
                 <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <a target="blank" href="https://www.google.com/maps/place/Les+Invalides/@48.9154926,2.3451711,13.25z/data=!4m13!1m7!3m6!1s0x47e66fd5a1f61e57:0x3c0518fc678bf8b7!2sInvalides,+75007+Paris!3b1!8m2!3d48.8593608!4d2.3138127!3m4!1s0x47e66fd7b98f3053:0x455a14459c80c16a!8m2!3d48.8570917!4d2.3128112"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <a target="blank" href="https://www.google.com/maps/place/Les+Invalides/@48.8568344,2.3108108,16.29z/data=!4m13!1m7!3m6!1s0x47e66fd5a1f61e57:0x3c0518fc678bf8b7!2sInvalides,+75007+Paris!3b1!8m2!3d48.8593608!4d2.3138127!3m4!1s0x47e66fd7b98f3053:0x455a14459c80c16a!8m2!3d48.8570917!4d2.3128112"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
               </div>
               <img class="col-xs-12 col-sm-6 col-md-8 col-lg-8 img-fluid btn btn-primary" data-toggle="modal" data-target="#exampleModal10-lg" src="img/monuments_paris/les-invalidesNB.jpg" onmouseover="this.src='img/monuments_paris/les-invalides.jpg'" onmouseout="this.src='img/monuments_paris/les-invalidesNB.jpg'" />
 
@@ -369,9 +400,10 @@
 
               <div class="d-lg-none">
                   <h5 class="mt-0">Top-aligned media</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <p class="text-justify">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 <a href="https://www.google.fr/maps/place/Sacr%C3%A9-C%C5%93ur/@48.8872869,2.3465867,15.79z/data=!4m5!3m4!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043"><i class="fas fa-map-marked-alt fa-2x"></i></a>
+                <i class="far fa-thumbs-up fa-2x"></i>
                 </div>
             </div>
           </div>
@@ -396,19 +428,19 @@
 
     </section>
 
-    <footer>
-      <footer>
-      <div class="container">
-       <hr>
-       <p class="text-center mb-1">Designed by Pirates - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-       <ul class="list-inline text-center">
-        <li class="list-inline-item"><a href="#" title="#"><img src="img/facebook-square-brands.svg" alt="Facebook" width="30" height="30" /></a></li>
-        <li class="list-inline-item"><a href="" title=""><img src="img/instagram.svg" alt="Instagram" width="30" height="30" /></li>
-          <li class="list-inline-item"><a href="" title=""><img src="img/youtube.svg" alt="You Tube" width="30" height="30" /></a></li>
-        </ul>
-      </div>
-    </footer>
-    </footer>
+      <!-- Footer -->
+<footer>
+  <div class="container">
+   <hr>
+   <p class="text-center mb-1">Designed by Pirates <img src="img/pirateProfil.png" height="30" alt="Portrait" />  - Le gang des développeurs !!</p>
+   <ul class="list-inline text-center">
+    <li class="list-inline-item"><a href="#" title="#"><img src="img/facebook-square-brands.svg" alt="Facebook" width="30" height="30" /></a></li>
+    <li class="list-inline-item"><a href="" title=""><img src="img/instagram.svg" alt="Instagram" width="30" height="30" /></a></li>
+    <li class="list-inline-item"><a href="https://youtu.be/gKBKHtIf1BA" target="_blank" title="Tuto Wildo"><img src="img/youtube.svg" alt="You Tube" width="30" height="30" /></a></li>
+  </ul>
+</div>
+</footer>
+<!-- Fin Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
