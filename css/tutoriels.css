@@ -1,159 +1,122 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|EB+Garamond');
 
+body
+{
+    background-image: url(http://redac.cuk.ch/archives_v3/5115/Casqueclat.jpg);
+    background-attachment: fixed;
+    
+}
+
+.container 
+{
+    background-color: rgb(236,236, 236,0.9);
+    
+}
+footer 
+{
+    background-color: rgb(236,236, 236)
+    
+}
+header 
+{
+    background-color: rgb(236,236, 236)
+    
+}
+.card 
+{
+    background-color: rgb(236,236, 236,0.1);
+
+    
+}
+
 p{
     font-size:20px;
+    font-family: 'Cormorant Garamond', cursive;
+    
 }
-
 .embed-responsive 
 {
-    margin-top: 24px;
-    box-shadow: 6px 6px 10px #aaa;
-}
-
-
-h2
-{
-display: flex;
-justify-content:center;
-margin-top: 20px;
-
-}
-
-h3
-{
-    display: flex;
-    justify-content:center;
-    margin-top: 50px;
-}
-
-.card
-{
-    border: none;
+    margin-top: 44px;
+    box-shadow: 5px 5px 5px #aaa;
 }
 
 .border-rigth-gray
 {
     border-left: 2px solid gray;
-    
-    
-}
-
-
-.img-end
-{
-    width: 550px;
-    margin-left:250px;
-    box-shadow: 6px 6px 10px #aaa;
-    margin-bottom: 40px;
-    margin-top: 40px;
 }
 
 
 .card-img-top
 {
-    width: 100px;
-    margin-left:50px;
-    
+     width: 170px;
+     margin-left: auto;
+     margin-right: auto;
     
 }
-article
+.card
 {
-   margin-right: 110px;
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
 }
+.card-body
+{
+     
+     margin-left: auto;
+     margin-right: auto;
+    
+}
+
 
 .img-fluid
+
 {
     box-shadow: 6px 6px 10px #aaa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
 }
-
-
-
-    p{
-        font-size:20px;
-    }
-    
-    .embed-responsive 
-    {
-        margin-top: 24px;
-        box-shadow: 6px 6px 10px #aaa;
-    }
-    
-    
-    h2
-    {
-    display: flex;
-    justify-content:center;
-    margin-top: 20px;
-    
-    }
-    
-    h3
-    {
-        display: flex;
-        justify-content:center;
-        margin-top: 50px;
-    }
-    
-    .card
-    {
-        border: none;
-    }
-    
-    .border-rigth-gray
-    {
-        border-left: 2px solid gray;
-        
-        
-    }
-    
-    
-    .img-end
-    {
-        width: 550px;
-        margin-left:250px;
-        box-shadow: 6px 6px 10px #aaa;
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-    
-    
-    .card-img-top
-    {
-        width: 100px;
-        margin-left:50px;
-        
-        
-    }
-    article
-    {
-       margin-right: 110px;
-    }
-    
-    .img-fluid
-    {
-        box-shadow: 6px 6px 10px #aaa;
-      
-    }
-
-
 h1
 {
     font-family: 'Amatic SC', cursive;
-    font-size:100px;
+    font-size:150px;
 }
 h2 
 {
-    font-family: 'EB Garamond', cursive;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+span
+{
+    font-size: 60px;
+}
+.logowildo
+{
+    width: 100px;
+    border-radius: 30px;
+}
+.btn-secondary
+{
+    background-color:rgb(230,236, 336,0.5); 
+    border: solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-h3
+.icone
 {
-    font-family: 'EB Garamond', cursive;
-   
+    border: solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
-p
-{
-  font-family: 'Cormorant Garamond', cursive;
-}
+
