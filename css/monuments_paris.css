@@ -67,3 +67,7 @@ h1
 	color:gray;
 }
 
+.logo:hover
+{
+	text-decoration: none;
+}
