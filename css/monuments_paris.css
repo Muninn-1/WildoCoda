@@ -15,12 +15,7 @@ body
 	margin: 40px 0px;
 }
 
-h2
-{
-	
-	
-	text-align:center;
-}
+
 
 
 
@@ -28,7 +23,7 @@ h2
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   padding:0px;
   margin-bottom:15px;
   box-shadow: 6px 6px 10px #aaa;
@@ -77,5 +72,6 @@ h2
 {
 	text-align: center;
 	margin-top:40px !important;
+
 
 }
