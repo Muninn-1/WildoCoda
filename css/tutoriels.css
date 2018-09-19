@@ -38,6 +38,7 @@ p{
      width: 170px;
      margin-left: auto;
      margin-right: auto;
+     border-radius:10px;
     
 }
 .card
@@ -72,17 +73,14 @@ p{
 
 h2 
 {
-    font-family: 'caveat',cursive;
+    
     display: flex;
     justify-content:center;
     margin-top: 20px;
     font-size: 50px;
 }
-span
-{
-    font-family: 'Dancing script', cursive;
-    font-size: 60px;
-}
+
+
 .logowildo
 {
     width: 100px;
