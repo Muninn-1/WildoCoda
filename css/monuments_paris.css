@@ -1,5 +1,12 @@
 
 
+body
+{
+	background:url(../img/brickwall/brickwall.png) repeat;
+}
+
+
+
 
 .media
 {
@@ -8,11 +15,10 @@
 	margin: 40px 0px;
 }
 
-h1
+h2
 {
-	display:flex;
-	justify-content:center;
-	margin-top:45px;
+	
+	
 	text-align:center;
 }
 
@@ -67,7 +73,9 @@ h1
 	color:gray;
 }
 
-.logo:hover
+.sentence
 {
-	text-decoration: none;
+	text-align: center;
+	margin-top:40px !important;
+
 }
