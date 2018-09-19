@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|EB+Garamond|Dancing+Script');
 
 
+
 body{
     font-size:20px;
     font-family: 'Cormorant Garamond', cursive;
@@ -17,10 +18,23 @@ h1
 
 h2 
 {
-    font-family: 'Caveat', cursive;
+  font-family: 'Caveat', cursive;
 }
 
 .btn-outline-dark
 {
     border: none;
+
+}
+
+.logo a
+{
+	text-decoration: none !important;
+	color: black;
+}
+
+.logo a:hover
+{
+	text-decoration: none !important;
+	color: black;
 }
