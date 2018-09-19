@@ -7,9 +7,6 @@
 	text-align: right;
 }
 
-hr {
-	margin-top: 5rem;
-}
 
 /*CSS Cards----------------------*/
 
@@ -42,7 +39,7 @@ h6 {
 }
 
 .row_cards {
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 .card-text {
