@@ -1,16 +1,10 @@
 
 /*CSS Citation--------------------*/
 
-.col-12 {
-	display: flex;
-	justify-content: right;
+.citation {
 	margin-top: 2rem;
-}
-
-.col-12 h2 {
 	margin-bottom: 0px;
 	text-align: right;
-	font-family: 'Dancing Script';
 }
 
 hr {
