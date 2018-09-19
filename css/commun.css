@@ -1,2 +1,21 @@
 
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|EB+Garamond|Dancing+Script');
+
+
+body{
+    font-size:20px;
+    font-family: 'Cormorant Garamond', cursive;
+    
+}
+
+h1
+{
+    font-family: 'Amatic SC', cursive;
+    font-size:150px;
+}
+
+h2 
+{
+    font-family: 'Dancing Script', cursive;
+}
