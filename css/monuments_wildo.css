@@ -1,0 +1,101 @@
+/*Monument de Wildo CSS*/
+
+body {
+	background: url('../img/dark_brick_wall_@2X.png') #212121;
+	color: #fff;
+}
+
+hr {
+	background: #fff;
+}
+
+
+/*.navbar {
+	background: transparent;
+}*/
+
+
+.media {
+	/*border: 1px solid red;*/
+}
+
+
+.media >.row > img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.far, .fas
+{
+	color:darkgray;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.far:hover, .fas:hover
+{
+	color:gray;
+}
+
+/*.media
+{
+	display:flex;
+	flex-direction: row;
+	margin: 40px 0px;
+}
+
+
+.img-fluid {
+  /*max-width: 100%;
+  height: auto;
+  padding:0px;
+  margin-bottom:15px;
+  box-shadow: 4px 4px 3px rgba(255, 255, 255, 0.2);
+}
+
+img {
+	width: 70%;
+	height: 70%;
+}
+
+.row
+{
+	justify-content:center;
+}
+
+.d-lg-none
+{
+	padding:10px 20px;
+}
+
+
+.btn
+{
+	border:none;
+
+}
+
+.mapicon
+{
+	display:flex;
+	flex-direction:row-reverse;
+}
+
+.fa-thumbs-up
+{
+	color:blue;
+	margin:0px 12px;
+}
+
+.fa-map-marked-alt
+{
+	color:darkgray;
+}
+
+.fa-map-marked-alt:hover
+{
+	color:gray;
+}
+
+*/

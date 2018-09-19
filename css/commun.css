@@ -19,3 +19,8 @@ h2
 {
     font-family: 'Caveat', cursive;
 }
+
+.btn-outline-dark
+{
+    border: none;
+}
