@@ -1,0 +1,138 @@
+
+/*CSS Citation--------------------*/
+
+.citation {
+	margin-top: 2rem;
+	margin-bottom: 0px;
+	text-align: right;
+}
+
+
+/*CSS Cards----------------------*/
+
+.row {
+	display:flex;
+	justify-content: space-between;
+}
+
+.col-lg-3 {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	height: 28rem;
+	width: 16rem;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.card-title {
+	margin-bottom: 0px;
+}
+
+
+h6 {
+	text-align: right;
+	font-style: italic;
+}
+
+.row_cards {
+	margin-top: 3rem;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+
+/*CSS cards:partie modale---------------*/
+.modal-content {
+	width: auto;
+}
+
+.close {
+	position: relative;
+	left: 45rem;
+	top: -1rem;
+	width: 0rem;
+	height: 0rem;
+	color: darkred;
+}
+
+
+.modal-dialog {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+}
+
+.modal-img {
+	height: 12rem;
+}
+
+.modal-img {
+  cursor: pointer;
+}
+
+
+
+.col-10 {
+	display: flex;
+	flex-direction: row-reverse;
+}	
+
+/*CSS map icone-------------------------*/
+.fa-map-marked-alt {
+	color: darkgray;
+}
+
+.fa-map-marked-alt:hover {
+	color: gray;
+}
+
+.fa-map-marked-alt:active {
+	color: #535353;
+}
+
+
+/*CSS bouton "lire la suite"--------------*/
+.btn-primary {
+	background-color: white;
+	border-color: darkgray;
+	color: darkgray;
+}
+
+.btn-primary:active {
+	background-color: gray !important;
+	border-color: gray !important;
+	color: white !important;
+}
+.btn-primary:hover {
+	background-color: white;
+	border-color: gray;
+	color: gray;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 0 .2rem rgba(169,169,169,.5) !important;
+}
+
+
+/*Carousel---------------------------------*/
+
+.carousel img {
+	height: 70%;
+}
+
+
+.carousel-caption {
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	background-color: rgba(211,211,211,0.8);
+	color: #212121;
+}

@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|EB+Garamond');
+
+body
+{
+    background-image: url(http://redac.cuk.ch/archives_v3/5115/Casqueclat.jpg);
+    background-attachment: fixed;
+    
+}
+
+.container 
+{
+    background-color: rgb(236,236, 236,0.95);
+    
+}
+
+
+p{
+    text-indent:5%;
+    font-size:23px;
+  
+    
+}
+.embed-responsive 
+{
+    margin-top: 44px;
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+.border-rigth-gray
+{
+    border-left: 2px solid gray;
+}
+
+
+.card-img-top
+{
+     width: 170px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius:10px;
+    
+}
+.card
+{
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(236,236, 236,0.1);
+}
+.card-body
+{
+     
+     margin-left: auto;
+     margin-right: auto;
+    
+}
+
+
+.img-fluid
+
+{
+    box-shadow: 6px 6px 10px #aaa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+
+h2 
+{
+    
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+
+.logowildo
+{
+    width: 100px;
+    border-radius: 30px;
+}
+
+    
+.btn-outline-primary
+{
+    
+  justify-content: center;
+  border: none;
+ 
+   
+}
+.btn-outline-danger
+{
+    
+  justify-content: center;
+  border: none;
+ 
+   
+}
+.icone
+{
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+article
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}

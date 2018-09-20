@@ -1,0 +1,85 @@
+
+
+body
+{
+	background:url(../img/brickwall/brickwall.png) repeat;
+}
+
+
+
+
+
+
+.col-lg-4
+{
+	width: 100%
+}
+
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto !important;
+  padding:0px;
+  margin-bottom:15px;
+  box-shadow: 6px 6px 10px #aaa;
+}
+
+.row
+{
+	display:flex;
+	justify-content:center;
+}
+
+.d-lg-none
+{
+	padding:10px 20px;
+}
+
+
+.btn
+{
+	border:none;
+
+}
+
+.mapicon
+{
+	display:flex;
+	flex-direction:row-reverse;
+}
+
+.fa-thumbs-up
+{
+	color:blue;
+	margin:0px 12px;
+}
+
+.fa-map-marked-alt
+{
+	color:darkgray;
+}
+
+.fa-map-marked-alt:hover
+{
+	color:gray;
+}
+
+.sentence
+{
+	text-align: center;
+	margin-top:40px !important;
+
+
+}
+
+.far
+{
+	color:darkgray;
+}
+
+hr
+{
+	margin:40px 0px !important;
+}
