@@ -10,10 +10,6 @@ body {
 	color: #fff !important;	
 }
 
-/*.navbar {
-	background: transparent;
-}*/
-
 
 .media {
 	/*border: 1px solid red;*/
@@ -21,16 +17,14 @@ body {
 }
 
 
-/*.box_img {
-	height: 500px;
-	width: 500px;
-	border: 1px solid red;
-}*/
-
 .media .row  img {
 	width: 100%;
 	height: auto;
 	cursor: pointer;
+}
+
+p {
+	padding: 5px; 	 
 }
 
 .far, .fas
@@ -38,6 +32,7 @@ body {
 	color:darkgray;
 	margin-right: 10px;
 	cursor: pointer;
+	padding-left: 10px;
 }
 
 .far:hover, .fas:hover
@@ -45,64 +40,10 @@ body {
 	color:gray;
 }
 
-/*.media
-{
-	display:flex;
-	flex-direction: row;
-	margin: 40px 0px;
+footer ul li{
+	color: white ;
 }
 
-
-.img-fluid {
-  /*max-width: 100%;
-  height: auto;
-  padding:0px;
-  margin-bottom:15px;
-  box-shadow: 4px 4px 3px rgba(255, 255, 255, 0.2);
+hr {
+	background: #fff;
 }
-
-img {
-	width: 70%;
-	height: 70%;
-}
-
-.row
-{
-	justify-content:center;
-}
-
-.d-lg-none
-{
-	padding:10px 20px;
-}
-
-
-.btn
-{
-	border:none;
-
-}
-
-.mapicon
-{
-	display:flex;
-	flex-direction:row-reverse;
-}
-
-.fa-thumbs-up
-{
-	color:blue;
-	margin:0px 12px;
-}
-
-.fa-map-marked-alt
-{
-	color:darkgray;
-}
-
-.fa-map-marked-alt:hover
-{
-	color:gray;
-}
-
-*/
