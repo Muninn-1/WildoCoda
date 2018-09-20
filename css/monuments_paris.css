@@ -8,15 +8,12 @@ body
 
 
 
-.media
+
+
+.col-lg-4
 {
-	display:flex;
-	flex-direction: row;
-	margin: 40px 0px;
+	width: 100%
 }
-
-
-
 
 
 
@@ -31,6 +28,7 @@ body
 
 .row
 {
+	display:flex;
 	justify-content:center;
 }
 
@@ -74,4 +72,14 @@ body
 	margin-top:40px !important;
 
 
+}
+
+.far
+{
+	color:darkgray;
+}
+
+hr
+{
+	margin:40px 0px !important;
 }
