@@ -5,10 +5,10 @@ body {
 	color: #fff;
 }
 
-hr {
-	background: #fff;
-}
 
+.logo a{
+	color: #fff !important;	
+}
 
 /*.navbar {
 	background: transparent;
@@ -17,12 +17,19 @@ hr {
 
 .media {
 	/*border: 1px solid red;*/
+	margin-top: 55px;
 }
 
 
-.media >.row > img {
+/*.box_img {
+	height: 500px;
+	width: 500px;
+	border: 1px solid red;
+}*/
+
+.media .row  img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	cursor: pointer;
 }
 
